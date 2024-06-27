@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> My First Javascript </h1>
+        <script>
+            function getDate() {
+                document.getElementById("timePlaceHolder").innerHTML = Date()
+                console.log("time inserted.")
+                //window.alert("time inserted.")
+            }
+        </script>
+        <p id="timePlaceHolder"></p>
+        <button type="button" onclick="getDate()">Click to Get Current Date</button>
+    </body>
+</html>
+
